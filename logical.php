@@ -213,18 +213,8 @@
   ?>
   <p>Q12</p>
   <?php
-  // 12.	Write a PHP to find the grade for the student, after calculating the average of his score in all the subject 
-  // Sample Inputs: [60,86,95,63,55,74,79,62,50]
-  // Sample Output: ‘D’
-  // Range	Grade
-  // <60	F
-  // <70	D
-  // <80	C
-  // <90	B
-  // <100	A
-
-  function calGrade($ar)
-  {
+  // 12.	Write a PHP to find the grade for the student, after calculating the average of 
+  function calGrade($ar){
     $sum = array_sum($ar);
     $x = $sum / count($ar);
     switch ($x) {
