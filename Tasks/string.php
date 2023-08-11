@@ -204,14 +204,14 @@
     echo " $words[$i] ";
   echo "<hr>";
 
-// task 18 
-  echo (float)str_replace(',',"",'2,543.12')."<br>";
+  // task 18 
+  echo (float)str_replace(',', "", '2,543.12') . "<br>";
   echo "<hr>";
 
-// task 19
-for($i = 0 ; $i < 26; $i++)
-  echo chr(97 +$i)." ";
-echo "<br>";
+  // task 19
+  for ($i = 0; $i < 26; $i++)
+    echo chr(97 + $i) . " ";
+  echo "<br>";
 
 
   ?>
